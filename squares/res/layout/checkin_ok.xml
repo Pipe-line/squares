@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+       <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dip"
+                android:paddingTop="5dip"
+                android:weightSum="1" >
+ <View
+                    android:id="@+id/firstDivider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout01"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#e1e1e1"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/mytextview1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:text="People Here"
+                            android:textColor="#333333"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/mytextview2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:text="Last 10"
+                            android:textColor="#333333"
+                            android:textSize="10dip"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:padding="5dip" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip" >
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip" >
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="10dip"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="Fernando Fernández"
+                            android:textColor="#000000"
+                            android:textSize="14dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dip" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/firstDivider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:padding="5dip" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip" >
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip" >
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="10dip"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="Andy Rubin"
+                            android:textColor="#000000"
+                            android:textSize="14dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dip" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/firstDivider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:padding="5dip" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip" >
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip" >
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="10dip"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="Steve Jobs"
+                            android:textColor="#000000"
+                            android:textSize="14dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dip" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+                
+                  <View
+                    android:id="@+id/firstDivider"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#c1c1c1" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_horizontal"
+                    android:padding="5dip" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dip" >
+
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="50dip"
+                            android:layout_height="50dip" >
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/text"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="10dip"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="Steve Ballmer"
+                            android:textColor="#000000"
+                            android:textSize="14dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical"
+                        android:paddingRight="5dip" >
+
+                        <ImageView
+                            android:id="@+id/ImageView01"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:src="@drawable/arrow" >
+                        </ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

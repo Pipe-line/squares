@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">squares</string>
+    <!-- The label for the search results for this app (see searchable.xml for more details). -->
+    <string name="search_label">Dictionary</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Search</string>
+
+    <!-- The description that will show up in the search settings for this source. -->
+    <string name="settings_description">Definitions of words</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Press the search key to look up a word</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <string name="search_results">Search results for </string>
+    <string name="error_de_conexion">Connection Error</string>
+    <string name="error_servidor">Connection closed</string>
+    <string name="usuario_ya_registrado">User already taken</string>
+    <string name="error_registro">Registration Error</string>
+    <string name="registrando">Sign in...</string>
+</resources>

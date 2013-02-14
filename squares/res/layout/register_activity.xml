@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="100dip"
+                android:layout_height="100dip" >
+
+                <ImageView
+                    android:id="@+id/imgAvatar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/avatarImageUser"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:cropToPadding="true"
+                    android:padding="8dip"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/arrow"
+                    android:visibility="invisible" >
+                </ImageView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20dip" >
+
+                <EditText
+                    android:id="@+id/editName"
+                    android:inputType="text"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Nombre" 
+                    android:text="alvaro" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/editSurname"
+                    android:inputType="text"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="Apellido"
+                    android:text="abella" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/editEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textEmailAddress" 
+                android:text="abella@gonzalez.com" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                 />
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:text="abella"  />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cumpleaños" />
+
+            <EditText
+                android:id="@+id/editDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusableInTouchMode="false"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Género" />
+
+            <EditText
+                android:id="@+id/editGender"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusableInTouchMode="false"
+                android:inputType="date" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/txtPosition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puesto" />
+
+            <EditText
+                android:id="@+id/editPosition"
+                android:inputType="text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="dev"  />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="15dip"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="5dip" >
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="3dip"
+                android:layout_weight="1"
+                android:text="next"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </TableLayout>
+
+</LinearLayout>
