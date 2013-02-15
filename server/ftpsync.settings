@@ -1,0 +1,15 @@
+{
+    <app>: {
+        host: {ftp.alvaroabella.com}, // url of the ftp server
+
+        username: {string=awzkxfuc},
+        password: {string=fonehiya},
+
+        path: {string="/"}, // your project's root path on the _server_
+
+        upload_on_save: {bool=true}, // whether upload on save [true] or manually [false]
+
+        tls: {bool=false}, // set [true] to use secured transfer, recommended!
+        // (server needs to support, but not enforce SSL_REUSE)
+    }
+}
